@@ -1,0 +1,10 @@
+# Локальные настройки, секреты и служебные dotfiles.
+.*
+!.gitignore
+
+/rustlings-for-hse/
+
+AGENTS.md 
+
+
+
