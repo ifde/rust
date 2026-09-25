@@ -1,2 +1,2 @@
-# rust
-HSE Year 4 (2026) Research Seminar on Rust 
+# HSE Year 4 (2026) Research Seminar on Rust 
+
