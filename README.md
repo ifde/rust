@@ -8,6 +8,7 @@ Rustlings exercises are here: https://github.com/ifde/rustlings-for-hse
 - The Rust Programming Language (https://doc.rust-lang.org/stable/book/)
 - Cookin' with Rust (https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
 - Rust by Example (https://doc.rust-lang.org/rust-by-example/)
+- cheats.rs
 
 ### Более продвинутые темы:
 - Asynchronous Programming in Rust (https://rust-lang.github.io/async-book/): детали async программирования в rust, глубже чем The Rust Programming Language, но книжка находится в процессе переписывания
