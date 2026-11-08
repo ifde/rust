@@ -805,6 +805,9 @@ let text: String = ['H', 'i'].into_iter().collect();
 let text = ['H', 'i'].into_iter().collect::<String>();
 ```
 
+Кстати: `iter()` работает с ссылками на исходные объекты (`|transaction: &ProxyTransaction|`, поэтому при действиях внутри map() их иногда придется разыменовывать *transaction. Тип transaction должен implement trait Copy).   
+`into_iter()` работает напрямую со значениями без ссылок.     
+
 `::<String>` (turbofish) явно указывает generic-тип результата.
 
 Упрощённо `collect` определён в трейте `Iterator` и делегирует сборку трейту
